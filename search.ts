@@ -46,7 +46,13 @@ ion-input{
 
 http://www.omdbapi.com/?s=saw&type=movie&apikey=7d683b5
 
-
+ionic start movieApp blank --type=angular
+cd movieApp
+ 
+# Use the CLI to generate some pages and a service
+ionic g page pages/movies
+ionic g page pages/movieDetails
+ionic g service services/movie
 
 
 
