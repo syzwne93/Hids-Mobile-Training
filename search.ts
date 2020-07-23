@@ -14,11 +14,11 @@ div>
     ion-input type="text" placeholder="SUMBER"></ion-input>
 
                    <ion-item id="rounded">
-                <ion-datetime displayFormat="DD/MM/YYYY" pickerFormat="DD MMMM YYYY" placeholder="" min="1400" required="required" [(ngModel)]="start" [dayNames]="hids.dayNames" [monthNames]="hids.monthNames" [doneText]="hids.labels[20]" [cancelText]="hids.labels[21]"></ion-datetime>
+                <ion-datetime displayFormat="DD/MM/YYYY" pickerFormat="DD MMMM YYYY" placeholder="" min="1400" required="required" [dayNames]="hids.dayNames" [monthNames]="hids.monthNames" </ion-datetime>
             </ion-item>
         
             <ion-item id="rounded">
-                <ion-datetime displayFormat="DD/MM/YYYY" pickerFormat="DD MMMM YYYY" placeholder="" min="1400" required="required" [(ngModel)]="end" [dayNames]="hids.dayNames" [monthNames]="hids.monthNames" [doneText]="hids.labels[20]" [cancelText]="hids.labels[21]" ></ion-datetime>
+                <ion-datetime displayFormat="DD/MM/YYYY" pickerFormat="DD MMMM YYYY" placeholder="" min="1400" required="required" [dayNames]="hids.dayNames" [monthNames]="hids.monthNames" [doneText]="hids.labels[20]" [cancelText]="hids.labels[21]" ></ion-datetime>
             </ion-item>
               
 div>
@@ -41,3 +41,16 @@ ion-input{
   margin-bottom: 10px;
   border: 5px solid rgba(53, 46, 46, 0.5);
 }
+
+
+
+http://www.omdbapi.com/?s=saw&type=movie&apikey=7d683b5
+
+
+
+
+
+
+
+
+
